@@ -4,5 +4,8 @@ public class Main {
         Basket basket = new Basket();
         basket.add("Clever", 15, 178, 1.5);
         basket.print("Миша");
+
+        basket.add("Castle", 184575, 1);
+        basket.print("John III");
     }
 }
