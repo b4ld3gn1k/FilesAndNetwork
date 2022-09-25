@@ -1,16 +1,17 @@
 package CourierService;
 
 public class CargoInfo {
-    private Dimensions dimensions;
+    private final Dimensions dimensions;
     private final double mass; //вес
 
     private final String address; //адрес доставки
     private final String registrationNumber; //регистрационный номер
 
-    private final boolean isFragile; //является ли зрупким
-    private final boolean isTurn; //можно ли переворачивать
+    private final boolean isFragile;//можно ли переворачивать
+    private final boolean isTurn;//является ли зрупким
 
-    public CargoInfo(Dimensions dimensions, double mass, String address, String registrationNumber, boolean isFragile, boolean isTurn) {
+
+    public CargoInfo(double mass, String address, String registrationNumber, boolean isFragile, boolean isTurn, Dimensions dimensions) {
         this.dimensions = dimensions;
         this.mass = mass;
         this.address = address;
@@ -19,32 +20,28 @@ public class CargoInfo {
         this.isTurn = isTurn;
     }
 
-    public void print(){
-        System.out.println("Масса: " + mass +
-                " | Адрес: " + address +
-                " | Рег.Номер: " + registrationNumber +
-                " | Является ли хрупким: " + isFragile +
-                " | Можно ли переворачивать: " + isTurn + " | " + dimensions);
-    }
-
-    public CargoInfo setMass(int mass){
-        return new CargoInfo(dimensions, mass, address, registrationNumber, isFragile, isTurn);
-    }
-
-    public CargoInfo setAddress(String address){
-        return new CargoInfo(dimensions, mass, address, registrationNumber, isFragile, isTurn);
-    }
-
     public Dimensions getDimensions() {
         return dimensions;
+    }
+
+    public CargoInfo setDimensions(Dimensions dimensions){
+        return new CargoInfo(mass, address, registrationNumber, isFragile, isTurn, dimensions);
     }
 
     public double getMass() {
         return mass;
     }
 
+    public CargoInfo setMass(double mass){
+        return new CargoInfo(mass, address, registrationNumber, isFragile, isTurn, dimensions);
+    }
+
     public String getAddress() {
         return address;
+    }
+
+    public CargoInfo setAddress(String address){
+        return new CargoInfo(mass, address, registrationNumber, isFragile, isTurn, dimensions);
     }
 
     public String getRegistrationNumber() {
@@ -57,5 +54,13 @@ public class CargoInfo {
 
     public boolean isTurn() {
         return isTurn;
+    }
+
+    public String toString() {
+        return "Масса: " + mass +
+                " | Адрес: " + address +
+                " | Рег.Номер: " + registrationNumber +
+                " | Является ли хрупким: " + isFragile +
+                " | Можно ли переворачивать: " + isTurn + " | " + dimensions;
     }
 }

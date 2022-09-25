@@ -8,7 +8,7 @@ public class Dimensions {
 
     private int dimensions; //габариты м3
 
-    public Dimensions(int weight, int length, int height){
+    public Dimensions(int weight, int length, int height) {
         this.weight = weight;
         this.length = length;
         this.height = height;
@@ -18,28 +18,41 @@ public class Dimensions {
         return weight;
     }
 
-    public Dimensions setWeight(int weight) {
-        return new Dimensions(weight, length, height);
-    }
-
     public int getLength() {
         return length;
-    }
-
-    public Dimensions setLength(int length) {
-        return new Dimensions(weight, length, height);
     }
 
     public int getHeight() {
         return height;
     }
 
-    public Dimensions setHeight(int height) {
+    public Dimensions setWeight (int weight){
         return new Dimensions(weight, length, height);
     }
 
-    public int dimensionsM3(){
-        return dimensions = weight * length * height;
+    public Dimensions setLength (int length){
+        return new Dimensions(weight, length, height);
+    }
+
+    public Dimensions setHeight (int height){
+        return new Dimensions(weight, length, height);
+    }
+
+    public int getDimensions() {
+        return dimensions;
+    }
+
+    public void setDimensions(int dimensions) {
+        this.dimensions = dimensions;
+    }
+
+    public void calcDimensions(){
+        dimensions = weight * length * height;
+    }
+
+    public String toString() {
+        dimensions = weight * length * height;
+        return "Габариты: " + dimensions + " м3";
     }
 
 }

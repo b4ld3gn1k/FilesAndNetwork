@@ -2,17 +2,17 @@ package CourierService;
 
 public class Main {
     public static void main(String[] args) {
-        Dimensions dimensions = new Dimensions(15, 15, 15);
-        CargoInfo cargoInfo = new CargoInfo(dimensions,
-                35.7,
-                "Omsk",
-                "765HJFG7hjgf&987",
-                true,
-                false);
+        Dimensions dimensions =new Dimensions(15, 15, 15);
 
-        cargoInfo.setMass(1234);
-        cargoInfo.setAddress("EKB");
+        CargoInfo cargoInfo = new CargoInfo(37.5, "EKB", "sdjhfg875667HJFGHF7HJH", true, false, dimensions);
 
-        cargoInfo.print();
+        CargoInfo newMass = cargoInfo.setMass(124.124);
+        CargoInfo newAddress = cargoInfo.setAddress("Moscow");
+
+        Dimensions newHeight = dimensions.setHeight(1);
+        Dimensions newLength = dimensions.setLength(4);
+        Dimensions newWeight = dimensions.setHeight(3);
+
+        System.out.println(cargoInfo);
     }
 }
