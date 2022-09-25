@@ -38,16 +38,16 @@ public class Dimensions {
         return new Dimensions(weight, length, height);
     }
 
+    public Dimensions setNewDimensions (int weight, int length, int height){
+        return new Dimensions(weight, length, height);
+    }
+
     public int getDimensions() {
         return dimensions;
     }
 
     public void setDimensions(int dimensions) {
         this.dimensions = dimensions;
-    }
-
-    public void calcDimensions(){
-        dimensions = weight * length * height;
     }
 
     public String toString() {

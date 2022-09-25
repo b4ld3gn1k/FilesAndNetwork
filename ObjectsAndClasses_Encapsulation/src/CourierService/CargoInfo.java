@@ -11,7 +11,8 @@ public class CargoInfo {
     private final boolean isTurn;//является ли зрупким
 
 
-    public CargoInfo(double mass, String address, String registrationNumber, boolean isFragile, boolean isTurn, Dimensions dimensions) {
+    public CargoInfo(double mass, String address, String registrationNumber,
+                     boolean isFragile, boolean isTurn, Dimensions dimensions) {
         this.dimensions = dimensions;
         this.mass = mass;
         this.address = address;
