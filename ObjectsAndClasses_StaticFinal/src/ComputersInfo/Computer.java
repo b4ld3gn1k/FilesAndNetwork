@@ -1,13 +1,11 @@
 package ComputersInfo;
 
-import java.security.Key;
-
 public class Computer {
-    private final CPU cpu;
-    private final RAM ram;
-    private final Screen screen;
-    private final Storage storage;
-    private final Keyboard keyboard;
+    private CPU cpu;
+    private RAM ram;
+    private Screen screen;
+    private Storage storage;
+    private Keyboard keyboard;
 
     private final String vendor;
     private final String name;
