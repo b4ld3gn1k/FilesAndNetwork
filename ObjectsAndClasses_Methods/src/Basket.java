@@ -1,11 +1,12 @@
 public class Basket {
 
-    private static int count = 0;
+    private static int countBasket = 0;
     private String items = "";
-    private int totalPrice = 0;
+    private static int totalPrice = 0;
     private int limit;
     private double totalWeight = 0;
 
+    private static int count = 0;
     private static int totalPriceProduct;
     private static int totalCountProduct;
 
@@ -24,16 +25,16 @@ public class Basket {
     public Basket(String items, int totalPrice) {
         this();
         this.items = this.items + items;
-        this.totalPrice = totalPrice;
+        Basket.totalPrice = totalPrice;
     }
 
-    public static int getCount() {
-        return count;
+    public static int getCountBasket() {
+        return countBasket;
     }
 
     public static void increaseCount(int count) {
 
-        Basket.count = Basket.count + count;
+        Basket.countBasket = Basket.countBasket + count;
     }
 
     public void add(String name, int price) {
@@ -45,12 +46,13 @@ public class Basket {
     }
 
     public void add(String name, int price, int count, double weight) {
+        Basket.count = count;
 
         totalPrice = totalPrice + count * price;
         totalWeight = totalWeight + count * weight;
 
-        totalCountProduct = totalCountProduct + count;
-        totalPriceProduct = totalPriceProduct + totalPrice;
+        calcTotalCountProduct();
+        calcTotalPriceProduct();
 
         boolean error = false;
         if (contains(name)) {
@@ -71,6 +73,8 @@ public class Basket {
                 weight + " вес. - " + totalWeight + " общий вес.";
     }
 
+
+
     public void clear() {
         items = "";
         totalPrice = 0;
@@ -90,6 +94,14 @@ public class Basket {
         return items.contains(name);
     }
 
+    static int calcTotalPriceProduct(){
+        return totalPriceProduct = totalPriceProduct + totalPrice;
+    }
+
+    static int calcTotalCountProduct(){
+        return totalCountProduct = totalCountProduct + count;
+    }
+
     static int getTotalPriceProduct(){
         return totalPriceProduct;
     }
@@ -103,7 +115,7 @@ public class Basket {
     }
 
     static double averagePriceOneBasket(){
-        return (double) totalPriceProduct / count;
+        return (double) totalPriceProduct / countBasket;
     }
 
     public void print(String title) {
