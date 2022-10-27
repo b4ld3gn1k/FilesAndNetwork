@@ -1,6 +1,6 @@
 public class Arithmetic {
     private int numOne = 0;
-    private int numTwo = 0;
+    private int numTwo = 1;
 
     public Arithmetic(int numOne, int numTwo){
         this.numOne = numOne;
