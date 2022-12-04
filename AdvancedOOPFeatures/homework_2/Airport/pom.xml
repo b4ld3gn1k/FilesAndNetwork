@@ -76,7 +76,7 @@
             <version>${puppycrawl.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.skillbox</groupId>
+            <groupId>skillbox</groupId>
             <artifactId>airport</artifactId>
             <version>1.0.1</version>
             <scope>system</scope>
