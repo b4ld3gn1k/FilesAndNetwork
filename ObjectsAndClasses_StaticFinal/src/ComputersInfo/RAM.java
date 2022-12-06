@@ -40,4 +40,7 @@ public class RAM {
                 ". Объем - " + volume + " GB" +
                 ". Вес - " + weight + " кг.";
     }
+    public enum RAMType{
+        DDR1, DDR2, DDR3, DDR4
+    }
 }

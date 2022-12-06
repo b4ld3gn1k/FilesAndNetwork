@@ -40,4 +40,7 @@ public class Storage {
                 ". Объем - " + volume + " GB" +
                 ". Вес - " + weight + " кг.";
     }
+    public enum StorageType {
+        HDD, SSD,
+    }
 }

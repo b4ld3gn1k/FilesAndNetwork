@@ -10,7 +10,6 @@ public class Keyboard {
         this.isLight = isLight;
         this.weight = weight;
     }
-
     public KeyboardType getKeyboardType() {
         return keyboardType;
     }
@@ -39,5 +38,8 @@ public class Keyboard {
         return "Тип клавиатуры - " +keyboardType +
                 ". Подсветка - " + isLight +
                 ". Вес - " + weight + " кг.";
+    }
+    public enum KeyboardType {
+        MEMBRANE, SCISSOR, PLUNGER, CAPACITIVE, PROJECTION, MECHANICAL
     }
 }

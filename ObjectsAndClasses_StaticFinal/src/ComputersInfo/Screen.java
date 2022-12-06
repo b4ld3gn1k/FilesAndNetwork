@@ -40,4 +40,7 @@ public class Screen {
                 ". Тип матрецы - " + screenType +
                 ". Вес - " + weight + " кг.";
     }
+    public enum ScreenType{
+        IPS, TN, VA
+    }
 }

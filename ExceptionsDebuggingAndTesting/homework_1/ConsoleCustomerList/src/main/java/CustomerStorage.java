@@ -15,6 +15,19 @@ public class CustomerStorage {
         final int INDEX_PHONE = 3;
 
         String[] components = data.split("\\s+");
+
+        if (components.length != 4){
+            throw new ArrayIndexOutOfBoundsException("Неверно введены данные!");
+        }
+
+        if (!components[INDEX_EMAIL].matches("^(.+)@(.+)$")){
+            throw new IllegalArgumentException("Неверный формат почты!");
+        }
+
+        if (!components[INDEX_PHONE].matches("^\\+?[7|8][0-9]{10}")){
+            throw new IllegalArgumentException("Неверный формат телефона!");
+        }
+
         String name = components[INDEX_NAME] + " " + components[INDEX_SURNAME];
         storage.put(name, new Customer(name, components[INDEX_PHONE], components[INDEX_EMAIL]));
     }
@@ -28,6 +41,7 @@ public class CustomerStorage {
     }
 
     public Customer getCustomer(String name) {
+
         return storage.get(name);
     }
 
