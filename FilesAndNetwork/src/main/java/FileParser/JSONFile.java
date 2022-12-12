@@ -1,4 +1,4 @@
-package JSON;
+package FileParser;
 
 public class JSONFile {
     private String station_name;

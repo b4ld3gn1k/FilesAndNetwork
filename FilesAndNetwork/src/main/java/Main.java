@@ -1,5 +1,4 @@
-import CSV.CSVFileParser;
-import JSON.JSONFileParser;
+import MoscowUndergroundParser.ParseMoscowUnderground;
 
 public class Main {
 
@@ -12,7 +11,7 @@ public class Main {
         // data\4\6\dates-1.csv | data\9\6\dates-3.csv
 
         try {
-            MoscowUndergroundParser.ParseMoscowUnderground parseMoscowUnderground = new MoscowUndergroundParser.ParseMoscowUnderground(url);
+            ParseMoscowUnderground parseMoscowUnderground = new ParseMoscowUnderground(url);
             //SearchFiles.SearchFileInFolders searchFileInFolders = new SearchFiles.SearchFileInFolders(path);
             //JSONFileParser jsonFileParser = new JSONFileParser(JSONPath);
             //CSVFileParser csvFileParser = new CSVFileParser(CSVPath);

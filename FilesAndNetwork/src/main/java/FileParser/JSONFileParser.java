@@ -1,7 +1,10 @@
-package JSON;
+package FileParser;
 
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -18,8 +21,8 @@ public class JSONFileParser {
 
         JSONFile[] jsonFiles = objectMapper.readValue(jsonText, JSONFile[].class);
 
-        for (JSONFile file : jsonFiles){
-            System.out.println("station_name: " + file.getStation_name() + "\n" + "depth: " + file.getDepth() + "\n");
-        }
+            ObjectMapper mapper = new ObjectMapper();
+            ObjectWriter writer = mapper.writer(new DefaultPrettyPrinter());
+            writer.writeValue(new File("dataTwo.json"), jsonFiles);
     }
 }
