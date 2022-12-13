@@ -1,0 +1,634 @@
+{
+  "stations": [
+    {
+      "name": "Митино",
+      "line": "Арбатско-Покровская ",
+      "date": null,
+      "depth": "-14",
+      "hasConnection": true
+    },
+    {
+      "name": "Кунцевская",
+      "line": "Филевская ",
+      "date": null,
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Калужская",
+      "line": "Калужско-Рижская ",
+      "date": null,
+      "depth": "-10",
+      "hasConnection": true
+    },
+    {
+      "name": "Соколиная Гора",
+      "line": "Центральное ",
+      "date": null,
+      "depth": "-5",
+      "hasConnection": true
+    },
+    {
+      "name": "Менделеевская",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": null,
+      "depth": "-48,5",
+      "hasConnection": true
+    },
+    {
+      "name": "ВДНХ",
+      "line": "Калужско-Рижская ",
+      "date": null,
+      "depth": "-53,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Выставочная",
+      "line": "Филевская ",
+      "date": null,
+      "depth": "-25",
+      "hasConnection": true
+    },
+    {
+      "name": "Профсоюзная",
+      "line": "Калужско-Рижская ",
+      "date": null,
+      "depth": "-7",
+      "hasConnection": true
+    },
+    {
+      "name": "Боровицкая",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": null,
+      "depth": "-46,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Перово",
+      "line": "Калининско-Солнцевская ",
+      "date": null,
+      "depth": "-9",
+      "hasConnection": true
+    },
+    {
+      "name": "Спортивная",
+      "line": "Сокольническая ",
+      "date": null,
+      "depth": "-42",
+      "hasConnection": true
+    },
+    {
+      "name": "Ломоносовский проспект",
+      "line": "Калининско-Солнцевская ",
+      "date": null,
+      "depth": "-15",
+      "hasConnection": true
+    },
+    {
+      "name": "Андроновка",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Улица Дмитриевского",
+      "line": "Некрасовская ",
+      "date": "10.09.2016",
+      "depth": "-18",
+      "hasConnection": true
+    },
+    {
+      "name": "Технопарк",
+      "line": "Замоскворецкая ",
+      "date": "10.09.2016",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Кунцевская",
+      "line": "Филевская ",
+      "date": "10.09.2016",
+      "depth": "-31,2",
+      "hasConnection": true
+    },
+    {
+      "name": "Славянский бульвар",
+      "line": "МЦД-1",
+      "date": "10.09.2016",
+      "depth": "-8,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Шоссе Энтузиастов",
+      "line": "Центральное ",
+      "date": "30.12.1979",
+      "depth": "-53",
+      "hasConnection": true
+    },
+    {
+      "name": "Раменки",
+      "line": "Калининско-Солнцевская ",
+      "date": "30.12.1979",
+      "depth": "-15",
+      "hasConnection": true
+    },
+    {
+      "name": "Александровский сад",
+      "line": "Филевская ",
+      "date": "30.12.1979",
+      "depth": "-7",
+      "hasConnection": true
+    },
+    {
+      "name": "Щёлковская",
+      "line": "Филевская ",
+      "date": "30.12.1979",
+      "depth": "-8",
+      "hasConnection": true
+    },
+    {
+      "name": "Кунцевская",
+      "line": "Филевская ",
+      "date": "30.12.1979",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Университет",
+      "line": "Сокольническая ",
+      "date": "12.01.1959",
+      "depth": "-26,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Марксистская",
+      "line": "Калининско-Солнцевская ",
+      "date": "12.01.1959",
+      "depth": "-60",
+      "hasConnection": true
+    },
+    {
+      "name": "Улица Горчакова",
+      "line": "Бутовская ",
+      "date": "12.01.1959",
+      "depth": "9,6",
+      "hasConnection": true
+    },
+    {
+      "name": "Библиотека имени Ленина",
+      "line": "Сокольническая ",
+      "date": "12.01.1959",
+      "depth": "-12",
+      "hasConnection": true
+    },
+    {
+      "name": "Отрадное",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": "12.01.1959",
+      "depth": "-9",
+      "hasConnection": true
+    },
+    {
+      "name": "Пражская",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": "12.01.1959",
+      "depth": "-9,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Достоевская",
+      "line": "Люблинско-Дмитровская ",
+      "date": "19.06.2010",
+      "depth": "-60",
+      "hasConnection": true
+    },
+    {
+      "name": "Киевская",
+      "line": "Кольцевая ",
+      "date": "05.04.1953",
+      "depth": "-48",
+      "hasConnection": true
+    },
+    {
+      "name": "Мичуринский проспект",
+      "line": "Калининско-Солнцевская ",
+      "date": "30.08.2018",
+      "depth": "-13",
+      "hasConnection": true
+    },
+    {
+      "name": "Нижегородская",
+      "line": "Некрасовская ",
+      "date": "30.08.2018",
+      "depth": "-21,8",
+      "hasConnection": true
+    },
+    {
+      "name": "Каховская",
+      "line": "Каховская ",
+      "date": "30.08.2018",
+      "depth": "-8",
+      "hasConnection": true
+    },
+    {
+      "name": "Медведково",
+      "line": "Калужско-Рижская ",
+      "date": "30.09.1978",
+      "depth": "-10",
+      "hasConnection": true
+    },
+    {
+      "name": "Мичуринский проспект",
+      "line": "Калининско-Солнцевская ",
+      "date": "30.08.2018",
+      "depth": "-19",
+      "hasConnection": true
+    },
+    {
+      "name": "Курская",
+      "line": "МЦД-2",
+      "date": "13.03.1938",
+      "depth": "-40",
+      "hasConnection": true
+    },
+    {
+      "name": "Багратионовская",
+      "line": "Филевская ",
+      "date": "13.10.1961",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Свиблово",
+      "line": "Калужско-Рижская ",
+      "date": "13.10.1961",
+      "depth": "-8",
+      "hasConnection": true
+    },
+    {
+      "name": "Лермонтовский проспект",
+      "line": "Таганско-Краснопресненская ",
+      "date": "13.10.1961",
+      "depth": "-12",
+      "hasConnection": true
+    },
+    {
+      "name": "Улица 1905 года",
+      "line": "Таганско-Краснопресненская ",
+      "date": "13.10.1961",
+      "depth": "-11",
+      "hasConnection": true
+    },
+    {
+      "name": "Бульвар Дмитрия Донского",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": "13.10.1961",
+      "depth": "-10",
+      "hasConnection": true
+    },
+    {
+      "name": "Речной вокзал",
+      "line": "Замоскворецкая ",
+      "date": "13.10.1961",
+      "depth": "-6",
+      "hasConnection": true
+    },
+    {
+      "name": "Выставочный центр",
+      "line": "Замоскворецкая ",
+      "date": "20.11.2004",
+      "depth": "6",
+      "hasConnection": true
+    },
+    {
+      "name": "Краснопресненская",
+      "line": "Кольцевая ",
+      "date": "20.11.2004",
+      "depth": "-35,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Шелепиха",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "-18",
+      "hasConnection": true
+    },
+    {
+      "name": "Новоясеневская",
+      "line": "Калужско-Рижская ",
+      "date": "10.09.2016",
+      "depth": "-7",
+      "hasConnection": true
+    },
+    {
+      "name": "Тушинская",
+      "line": "Таганско-Краснопресненская ",
+      "date": "10.09.2016",
+      "depth": "-10,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Щукинская",
+      "line": "МЦД-2",
+      "date": "10.09.2016",
+      "depth": "-13",
+      "hasConnection": true
+    },
+    {
+      "name": "Косино",
+      "line": "Некрасовская ",
+      "date": "10.09.2016",
+      "depth": "-27",
+      "hasConnection": true
+    },
+    {
+      "name": "Крымская",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "-3",
+      "hasConnection": true
+    },
+    {
+      "name": "Серпуховская",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": "10.09.2016",
+      "depth": "-43",
+      "hasConnection": true
+    },
+    {
+      "name": "Алексеевская",
+      "line": "Калужско-Рижская ",
+      "date": "10.09.2016",
+      "depth": "-51",
+      "hasConnection": true
+    },
+    {
+      "name": "Коммунарка",
+      "line": "Сокольническая ",
+      "date": "10.09.2016",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Лухмановская",
+      "line": "Некрасовская ",
+      "date": "10.09.2016",
+      "depth": "-15",
+      "hasConnection": true
+    },
+    {
+      "name": "Новогиреево",
+      "line": "Калининско-Солнцевская ",
+      "date": "10.09.2016",
+      "depth": "-9",
+      "hasConnection": true
+    },
+    {
+      "name": "Полежаевская",
+      "line": "Таганско-Краснопресненская ",
+      "date": "10.09.2016",
+      "depth": "-10",
+      "hasConnection": true
+    },
+    {
+      "name": "Электрозаводская",
+      "line": "Некрасовская ",
+      "date": "31.12.2020",
+      "depth": "-20",
+      "hasConnection": true
+    },
+    {
+      "name": "Румянцево",
+      "line": "Сокольническая ",
+      "date": "31.12.2020",
+      "depth": "-12",
+      "hasConnection": true
+    },
+    {
+      "name": "Мякинино",
+      "line": "Арбатско-Покровская ",
+      "date": "31.12.2020",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Третьяковская",
+      "line": "Калининско-Солнцевская ",
+      "date": "31.12.2020",
+      "depth": "-46",
+      "hasConnection": true
+    },
+    {
+      "name": "ЗИЛ",
+      "line": "Центральное ",
+      "date": "31.12.2020",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Чистые пруды",
+      "line": "Сокольническая ",
+      "date": "31.12.2020",
+      "depth": "-35",
+      "hasConnection": true
+    },
+    {
+      "name": "Зорге",
+      "line": "Центральное ",
+      "date": "31.12.2020",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Красногвардейская",
+      "line": "Замоскворецкая ",
+      "date": "31.12.2020",
+      "depth": "-9",
+      "hasConnection": true
+    },
+    {
+      "name": "Угрешская",
+      "line": "Центральное ",
+      "date": "31.12.2020",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Тульская",
+      "line": "Серпуховско-Тимирязевская ",
+      "date": "31.12.2020",
+      "depth": "-9,5",
+      "hasConnection": true
+    },
+    {
+      "name": "Тургеневская",
+      "line": "Калужско-Рижская ",
+      "date": "31.12.2020",
+      "depth": "-49",
+      "hasConnection": true
+    },
+    {
+      "name": "Трубная",
+      "line": "Люблинско-Дмитровская ",
+      "date": "31.12.2020",
+      "depth": "-60",
+      "hasConnection": true
+    },
+    {
+      "name": "Новослободская",
+      "line": "Кольцевая ",
+      "date": "31.12.2020",
+      "depth": "-40",
+      "hasConnection": true
+    },
+    {
+      "name": "Минская",
+      "line": "Калининско-Солнцевская ",
+      "date": "31.12.2020",
+      "depth": "-15",
+      "hasConnection": true
+    },
+    {
+      "name": "Текстильщики",
+      "line": "МЦД-2",
+      "date": "31.12.2020",
+      "depth": "-13",
+      "hasConnection": true
+    },
+    {
+      "name": "Филатов Луг",
+      "line": "Сокольническая ",
+      "date": "31.12.2020",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Мнёвники",
+      "line": "Сокольническая ",
+      "date": "31.12.2020",
+      "depth": "-27",
+      "hasConnection": true
+    },
+    {
+      "name": "Тёплый Стан",
+      "line": "Сокольническая ",
+      "date": "31.12.2020",
+      "depth": "-8",
+      "hasConnection": true
+    },
+    {
+      "name": "Павелецкая",
+      "line": "Кольцевая ",
+      "date": "01.01.1950",
+      "depth": "-40",
+      "hasConnection": true
+    },
+    {
+      "name": "Проспект Вернадского",
+      "line": "Сокольническая ",
+      "date": "01.01.1950",
+      "depth": "-16",
+      "hasConnection": true
+    },
+    {
+      "name": "Верхние Котлы",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Тверская",
+      "line": "Замоскворецкая ",
+      "date": "20.07.1979",
+      "depth": "-42",
+      "hasConnection": true
+    },
+    {
+      "name": "Фонвизинская",
+      "line": "Люблинско-Дмитровская ",
+      "date": "16.09.2016",
+      "depth": "-65",
+      "hasConnection": true
+    },
+    {
+      "name": "Локомотив",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Семёновская",
+      "line": "Центральное ",
+      "date": "18.01.1944",
+      "depth": "-40",
+      "hasConnection": true
+    },
+    {
+      "name": "Хорошёво",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "5",
+      "hasConnection": true
+    },
+    {
+      "name": "Выхино",
+      "line": "Таганско-Краснопресненская ",
+      "date": "31.12.1966",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Новокосино",
+      "line": "Калининско-Солнцевская ",
+      "date": "30.08.2012",
+      "depth": "-9",
+      "hasConnection": true
+    },
+    {
+      "name": "Петровский парк",
+      "line": "Большая Кольцевая ",
+      "date": "26.02.2018",
+      "depth": "-25",
+      "hasConnection": true
+    },
+    {
+      "name": "Измайловская",
+      "line": "Арбатско-Покровская ",
+      "date": "21.10.1961",
+      "depth": "0",
+      "hasConnection": true
+    },
+    {
+      "name": "Парк Победы",
+      "line": "Калининско-Солнцевская ",
+      "date": "06.05.2003",
+      "depth": "-73,6",
+      "hasConnection": true
+    },
+    {
+      "name": "Беломорская",
+      "line": "Замоскворецкая ",
+      "date": "20.12.2018",
+      "depth": "-18",
+      "hasConnection": true
+    },
+    {
+      "name": "Рижская",
+      "line": "МЦД-2",
+      "date": "01.05.1958",
+      "depth": "-46",
+      "hasConnection": true
+    },
+    {
+      "name": "Шелепиха",
+      "line": "Центральное ",
+      "date": "10.09.2016",
+      "depth": "5",
+      "hasConnection": true
+    }
+  ]
+}

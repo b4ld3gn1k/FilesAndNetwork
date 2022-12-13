@@ -1,8 +1,11 @@
 package SearchFiles;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SearchFileInFolders {
+    private List<String> Path = new ArrayList<>();
 
     public SearchFileInFolders(String path){
         searchFile(path);
@@ -17,11 +20,13 @@ public class SearchFileInFolders {
         } else {
             System.out.println("Ошибка! Данный путь не является директорией!");
         }
+
     }
 
     private void scanFolder(File file){
         if (file.isFile()){
-            System.out.println(file.getName() + " -> " + file.getPath());
+            //System.out.println(file.getName() + " -> " + file.getPath());
+            Path.add(file.getPath());
         }
 
         if (file.isDirectory()){
