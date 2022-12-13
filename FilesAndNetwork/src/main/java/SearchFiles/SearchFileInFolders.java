@@ -1,11 +1,9 @@
 package SearchFiles;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Objects;
 
 public class SearchFileInFolders {
-    private List<String> Path = new ArrayList<>();
 
     public SearchFileInFolders(String path){
         searchFile(path);
@@ -25,13 +23,12 @@ public class SearchFileInFolders {
 
     private void scanFolder(File file){
         if (file.isFile()){
-            //System.out.println(file.getName() + " -> " + file.getPath());
-            Path.add(file.getPath());
+            System.out.println(file.getName() + " -> " + file.getPath());
         }
 
         if (file.isDirectory()){
             File[] folder = file.listFiles();
-            for (File files : folder){
+            for (File files : Objects.requireNonNull(folder)){
                     scanFolder(files);
             }
         }
